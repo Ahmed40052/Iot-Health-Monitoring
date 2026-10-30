@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+dist/
+
+# PlatformIO / Arduino
+.pio/
+.vscode/
+build/
+
+# Data and local databases
+*.db
+*.sqlite
+ai/data/*
+!ai/data/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+
+# Secrets
+.env
